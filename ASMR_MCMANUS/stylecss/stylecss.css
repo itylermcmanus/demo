@@ -1,0 +1,607 @@
+.aboutheader {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 15%;
+    font-size: 70px;
+    width: 780px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.abouttext {
+       color: white;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 15%;
+    font-size: 20px;
+    width: 780px;
+    position: absolute;
+    margin-top: 180px;
+  }
+
+#arrow {
+    color: white;
+    font-size: 50px;
+    margin-left: 875px;
+    position: relative;
+    padding-top: 425px;
+    height: 50px;
+    width: 50px;
+    display: block
+}
+
+#arrow a {
+  text-decoration: none ; 
+ 
+}
+
+#arrow a:hover {
+  text-decoration: none ; 
+  color: #4D4DFF ;
+}
+
+
+#arrow a:visited {
+  text-decoration: none ;
+  color: white ;  
+
+}
+
+.bigtext {
+	text-decoration: none ;
+ 	font-family: 'Rajdhani', sans-serif;
+ 	font-size: 200px ; 
+	color: white ; 
+	z-index: 100 ; 
+  width: 4800px ; 
+  position: absolute;
+
+}
+
+.bigtext a{
+	text-decoration: none ; 
+	color: white ;
+}
+
+.bigtext a:link {
+  text-decoration: none ;
+  color: white ;
+}
+
+.bigtext a:visited {
+  text-decoration: none ;
+  color: white ;
+}
+
+
+.bigtext a:hover {
+  text-decoration: none ; 
+  
+}
+
+#bigwhisper { 
+	display: inline-block;
+  float: left;
+  position: relative ; 
+  margin: 15px ;
+}
+
+
+#bigwhisper a:hover{ 
+  color: #4D4DFF
+}
+
+#bigchew {
+	display: inline-block;
+  float: left;
+  position: relative ; 
+  margin: 15px ;
+}
+
+#bigchew a:hover{ 
+  color: #FF94FF
+}
+
+#bigscratch { 
+	display: inline-block;
+  float: left;
+  position: relative ; 
+   margin: 15px ;
+	
+}
+
+#bigscratch a:hover{ 
+  color: #FFFF66
+}
+
+#bigbrush { 
+	display: inline-block;
+  float: left;
+  position: relative ; 
+   margin: 15px ;
+
+}
+
+#bigbrush a:hover{ 
+  color: #FF6C47
+}
+
+#bigcrinkle { 
+	display: inline-block;
+  float: left;
+  position: relative ; 
+   margin: 15px ;
+}
+
+#bigcrinkle a:hover{ 
+  color: #6CE86C
+}
+
+.tagheader {
+    position: fixed;
+    font-size: 45pt;
+    color: white;
+    height: 120px;
+    width: 1000px;
+    margin-top: -60px;
+    margin-left: 350px;
+    z-index: 8;
+    background-color: black;
+
+}
+
+.menucontainer {
+   float: left;
+  position: fixed;
+  margin-left: 25px; 
+  
+
+}
+
+.littletext {
+ 	font-family: 'Rajdhani', sans-serif;
+  font-style: 700;
+  color: white;
+  z-index: 100;
+  font-size: 60px;
+  text-decoration: none;
+  position: absolute;
+}
+
+#whisperpagemenu a{ 
+	color: #4D4DFF ; 
+  text-decoration: none ; 
+
+}
+
+#menuwhisper a {
+	text-decoration: none ; 
+	color: white ;
+}
+
+#menuwhisper a:hover {
+  text-decoration: none ; 
+  color: #4D4DFF ;
+}
+
+#chewpagemenu a{
+  color: #FF94FF ;
+  text-decoration: none ; 
+	
+}
+
+#menuchew a {
+	text-decoration: none ; 
+	color: white ;
+} 
+
+#menuchew a:hover{
+  text-decoration: none ; 
+   color: #FF94FF ;
+}
+
+#scratchpagemenu a{
+  color:  #FFFF66 ;
+  text-decoration: none ; 
+	
+}
+
+#menuscratch a {
+	text-decoration: none ; 
+	color: white ;
+}
+
+#menuscratch a:hover{
+  text-decoration: none ; 
+   color:  #FFFF66 ;
+}
+
+#brushpagemenu a{ 
+	color: #FF6C47 ; 
+  text-decoration: none ; 
+  
+}
+
+#menubrush a { 
+  text-decoration: none ;
+	color: white ;
+
+}
+
+#menubrush a:hover{
+  text-decoration: none ; 
+  color: #FF6C47 ; 
+}
+
+
+#crinklepagemenu a{ 
+  	color: #6CE86C ; 
+    text-decoration: none ; 
+  	 
+}
+
+#menucrinkle a {
+	text-decoration: none ; 
+	color: white ;
+}
+
+#menucrinkle a:hover{
+  text-decoration: none ; 
+  color: #6CE86C ;  
+}
+
+
+.box {
+  height: 146.6px ; 
+  width: 220px ;
+}
+
+.box:hover { 
+  visibility: hidden;
+
+}
+.container{ 
+
+  position: absolute;
+  width: 950px;
+  height: 1645px;
+  padding-top: 60px;
+  margin-left: 350px
+} 
+
+.video {
+	display: inline-block;
+  float: left;
+  position: relative;
+  padding-bottom: 16.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 5px;
+  z-index: 0 ; 
+
+}
+
+.tags {
+  z-index:3 ; 
+  background-color: black ; 
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14pt ; 
+  color: white ; 
+  position: absolute;
+  width: 220px ; 
+  display: none ; 
+}
+
+.tags a{
+  text-decoration: none ; 
+  color: white ;
+}
+
+.tags a:link {
+  text-decoration: none ;
+  color: white ;
+}
+
+.tags a:visited {
+  text-decoration: none ;
+  color: white ;
+}
+
+
+.tags a:hover {
+  text-decoration: bold ; 
+  
+}
+
+
+@media screen and (max-width: 7500px) and (min-width: 481px){
+
+  .container {
+    position: absolute;
+    width: 500px;
+    margin: 5px;
+    height: 1645px;
+    padding-top: 60px;
+    margin-left: 330px;
+}
+.tagheader{
+  margin-left: 330px;
+  
+}
+.video {
+    display: inline-block;
+    float: left;
+    position: relative; 
+    overflow: hidden;
+    margin: 5px;
+    z-index: 0;
+    padding-bottom: 16.25%;
+    height: 100px ; 
+}
+
+  #menuwhisper{
+            font-size: 50px ;
+    }
+     #menuchew{
+           font-size: 50px ;  
+    }
+
+     #menuscratch{
+            font-size: 50px  ; 
+    }
+
+     #menubrush{
+            font-size: 50px ; 
+    }
+
+     #menucrinkle{
+            font-size: 50px; 
+    }
+
+    #whisperpagemenu{
+      font-size: 50px ; 
+    }
+
+
+    #chewpagemenu{  
+      font-size: 50px ; 
+    }
+
+    #scratchpagemenu {
+       font-size: 50px ; 
+    }
+
+    #brushpagemenu {
+
+       font-size: 50px ; 
+    }
+
+    #crinklepagemenu {
+
+       font-size: 50px ; 
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+      .littletext{
+        float: left;
+    margin-left: 10%;
+    margin-top: 0px;
+    font-size: 0 ; 
+     }
+
+
+.menucontainer {
+    float: left;
+    position: fixed;
+    margin-left: 25px;
+    margin-top: 10px ; 
+  }
+     #menuwhisper{
+            font-size: 30px ;
+    }
+     #menuchew{
+           font-size: 30px;  
+    }
+
+     #menuscratch{
+            font-size: 30px ; 
+    }
+
+     #menubrush{
+            font-size: 30px ; 
+    }
+
+     #menucrinkle{
+            font-size: 30px; 
+    }
+
+    #whisperpagemenu{
+      font-size: 30px ; 
+    }
+
+
+    #chewpagemenu{  
+      font-size: 30px ; 
+    }
+
+    #scratchpagemenu {
+       font-size: 30px ; 
+    }
+
+    #brushpagemenu {
+
+       font-size: 30px ; 
+    }
+
+    #crinklepagemenu {
+
+       font-size: 30px ; 
+    }
+
+
+   .container {
+    position: absolute;
+    width: 480px;
+    height: 3000px;
+    margin-left: 190px;
+    margin-top: -55px;
+}
+  .video {
+    height: 67px; 
+    width: 400px;
+    margin: 15px;
+    display: block;
+    position: relative;
+}
+
+.tagheader {
+      font-size: 35px;
+    margin-left: 204px;
+    height: 68px;
+    padding-top: 10px;
+    width: 230px; 
+
+}
+} 
+
+ /*@media screen and (min-width: 1053px) {
+    #menuwhisper{
+        font-size: 30px;  
+        position: relative;
+
+    }
+     #menuchew{
+        font-size: 30px;
+  		position: absolute;
+  		margin-left: 32px;
+  		margin-top: 15px;
+    }
+
+     #menuscratch{
+        font-size: 30px;
+  		position: absolute;
+  		margin-left: 190px;
+  		margin-top: 15px;
+    }
+
+     #menubrush{
+        font-size: 30px;
+  		position: absolute;
+  		margin-left: 303pt;
+  		margin-top: 12pt;  
+    }
+
+     #menucrinkle{
+        font-size: 30px;
+  		position: absolute;
+  		margin-left: 438pt;
+  		margin-top: 12pt;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1052px) and (min-width: 900px) {
+    #menuwhisper{
+       font-size: 27px;
+  position: relative;
+
+    }
+     #menuchew{
+          font-size: 27px;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 17px;
+    }
+
+     #menuscratch{
+          font-size: 27px;
+  position: absolute;
+  margin-left: 149px;
+  margin-top: 16px;
+    }
+
+     #menubrush{
+          font-size: 27px;
+  position: absolute;
+  margin-left: 250pt;
+  margin-top: 12pt;;  
+    }
+
+     #menucrinkle{
+          font-size: 27px;
+  position: absolute;
+  margin-left: 360pt;
+  margin-top: 12pt;
+
+    }
+
+
+}
+ 
+@media screen and (max-width: 899px) and (min-width: 600px) {
+      
+      .container { 
+  position: absolute;
+  width: 781px;
+  height: 2500px;
+  margin-left: 10%;
+
+}
+
+.video { 
+  margin: 15px;
+}
+
+
+      #menuwhisper{
+        font-size: 25px; 
+        position: relative; 
+        margin-left: 50px ; 
+    }
+     #menuchew{
+        font-size: 25px;
+  position: absolute;
+  margin-left: 13px;
+  margin-top: 20px;
+    }
+
+
+     #menuscratch{
+        font-size: 25px;
+  position: absolute;
+  margin-left: 132px;
+  margin-top: 20px;
+    }
+
+     #menubrush{
+        font-size: 25px;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 20px; 
+    }
+
+     #menucrinkle{
+     font-size: 25px;
+  position: absolute;
+  margin-left: 436px;
+  margin-top: 19px; 
+    }
+} */ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
